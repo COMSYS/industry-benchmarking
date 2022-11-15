@@ -1,0 +1,122 @@
+---
+operations:
+  - name: he0002
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: -1.0
+  - name: he0001
+    is_kpi: false
+    op: Multiplication
+    var:
+      - he0002
+      - input_b
+    constant: ~
+  - name: he0000
+    is_kpi: false
+    op: Addition
+    var:
+      - he0001
+      - root_part
+    constant: ~
+  - name: he0004
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: 2.0
+  - name: he0003
+    is_kpi: false
+    op: Multiplication
+    var:
+      - he0004
+      - input_a
+    constant: ~
+  - name: abc_plus_variant
+    is_kpi: true
+    op: Division
+    var:
+      - he0000
+      - he0003
+    constant: ~
+  - name: he0007
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: -1.0
+  - name: he0006
+    is_kpi: false
+    op: Multiplication
+    var:
+      - he0007
+      - input_b
+    constant: ~
+  - name: he0005
+    is_kpi: false
+    op: Subtraction
+    var:
+      - he0006
+      - root_part
+    constant: ~
+  - name: he0009
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: 2.0
+  - name: he0008
+    is_kpi: false
+    op: Multiplication
+    var:
+      - he0009
+      - input_a
+    constant: ~
+  - name: abc_minus_variant
+    is_kpi: true
+    op: Division
+    var:
+      - he0005
+      - he0008
+    constant: ~
+  - name: root_part
+    is_kpi: false
+    op: Squareroot
+    var:
+      - he0010
+    constant: ~
+  - name: he0012
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: 2.0
+  - name: he0011
+    is_kpi: false
+    op: Power
+    var:
+      - input_b
+      - he0012
+    constant: ~
+  - name: he0014
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: 4.0
+  - name: he0015
+    is_kpi: false
+    op: Multiplication
+    var:
+      - input_a
+      - input_c
+    constant: ~
+  - name: he0013
+    is_kpi: false
+    op: Multiplication
+    var:
+      - he0014
+      - he0015
+    constant: ~
+  - name: he0010
+    is_kpi: false
+    op: Subtraction
+    var:
+      - he0011
+      - he0013
+    constant: ~

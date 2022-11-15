@@ -1,0 +1,11 @@
+Dataset: Injection Molding
+Inputs: 674 
+KPIs: 48 
+Operations: 3899 
+Operations w/o DefConst: 2704 
+Formulas: 627 
+Max Depth (of formulas, not atomics): 13  (see ./depth.txt)
+Avg Depth (of formulas, not atomics): 167 ÷ 48 = 3.479 (see ./depth.txt)
+
+Atomcics: {'bo0400': 1, 'ci6200': 12, 'ci6160': 15, 'pw014': 20, 'pw011': 15, 'pi6130': 12, 'pi6120': 16, 'bo0560': 1, 'pw013': 7, 'ci5221': 8, 'pw036': 21, 'pw082': 42, 'cw412': 10, 'pw012': 17, 'bo0390': 1, 'cw014': 2, 'bo0410': 1, 'pw022': 20, 'cw307': 1, 'bo0550': 1, 'ci6090': 20, 'ci7060': 17, 'cw414': 2, 'cw003': 1, 'ci7050': 24, 'cw309': 3, 'cw411': 6, 'pi8010': 32, 'bo0540': 1, 'ci5222': 8, 'pw028': 18, 'cw413': 6, 'pw097': 11, 'bo0740': 1, 'pw010': 8, 'ci6150': 8, 'cw001': 1, 'pi7060': 19, 'pi7050': 25, 'ci5223': 8, 'pw046': 49, 'ci5170': 7, 'bo0420': 1, 'pw005': 11, 'pw092': 42, 'cw308': 1, 'cw002': 3, 'ci6190': 13}
+avg: 11.854166666666666 max: 49

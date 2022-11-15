@@ -1,0 +1,7 @@
+---
+operations:
+  - name: sqrt
+    op: Squareroot
+    is_kpi: true
+    var:
+      - B

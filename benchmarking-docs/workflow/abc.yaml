@@ -1,0 +1,95 @@
+---
+
+- name: abc_plus_variant
+  is_kpi: true
+  op:
+    Binary:
+      op: Division
+      lhs:
+        Binary:
+          op: Addition
+          lhs:
+            Binary: 
+              op: Multiplication
+              lhs:
+                Literal: 
+                  constant: -1.0
+              rhs:
+                Literal:
+                  var: input_b
+          rhs:
+            Literal:
+              var: root_part
+      rhs:
+        Binary:
+          op: Multiplication
+          lhs:
+            Literal:
+              constant: 2.0
+          rhs:
+            Literal:
+              var: input_a
+
+
+- name: abc_minus_variant
+  is_kpi: true
+  op:
+    Binary:
+      op: Division
+      lhs:
+        Binary:
+          op: Subtraction
+          lhs:
+            Binary: 
+              op: Multiplication
+              lhs:
+                Literal: 
+                  constant: -1.0
+              rhs:
+                Literal:
+                  var: input_b
+          rhs:
+            Literal:
+              var: root_part
+      rhs:
+        Binary:
+          op: Multiplication
+          lhs:
+            Literal:
+              constant: 2.0
+          rhs:
+            Literal:
+              var: input_a
+
+- name: root_part
+  is_kpi: false
+  op:
+    Unary:
+      op: Squareroot
+      var:
+        Binary: 
+          op: Subtraction
+          lhs:
+            Binary:
+              op: Power
+              lhs:
+                Literal:
+                  var: input_b
+              rhs:
+                Literal:
+                  constant: 2.0
+          rhs:
+            Binary:
+              op: Multiplication
+              lhs:
+                Literal:
+                  constant: 4.0
+              rhs:
+                Binary:
+                  op: Multiplication
+                  lhs:
+                    Literal:
+                      var: input_a
+                  rhs:
+                    Literal:
+                      var: input_c

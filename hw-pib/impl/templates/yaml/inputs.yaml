@@ -1,0 +1,47 @@
+vars:
+  - name: one
+    min_val: -10
+    max_val: 10
+    values: [ 1.0 ]
+
+  - name: two
+    min_val: -10
+    max_val: 10
+    values: [ 2.0 ]
+
+  - name: three
+    min_val: -10
+    max_val: 10
+    values: [ 3.0 ]
+
+  - name: four
+    min_val: 0
+    max_val: 0
+    values: [ 2.0 ]
+
+  - name: minusone
+    min_val: -10
+    max_val: 10
+    values: [ -1 ]
+
+  - name: sixteen
+    min_val: 5
+    max_val: 25
+    values: [ 16.0 ]
+
+  - name: lista
+    min_val: 0
+    max_val: 10
+    values:
+      - 1
+      - 2
+      - 3
+
+  - name: listb
+    min_val: 0
+    max_val: 10
+    values:
+      - 2
+      - 3
+      - 4
+

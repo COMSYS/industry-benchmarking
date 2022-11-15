@@ -1,0 +1,4 @@
+export TEEBENCH_SESSION="TEEBench-27768-8349-28849"
+export SCONE_CAS_ADDR="scone-cas.cf"
+export IMAGE="teebench_server_image"
+export DEVICE="/dev/isgx"

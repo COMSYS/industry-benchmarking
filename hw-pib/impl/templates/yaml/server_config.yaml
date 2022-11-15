@@ -1,0 +1,9 @@
+# General server config
+host: 0.0.0.0
+port: 8080
+tls_port: 8443
+http_workers: 1
+https_workers: 20
+data_path: './data'
+shutdown_timeout: 1
+# there is another one i want to add

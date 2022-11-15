@@ -1,0 +1,7 @@
+ENCRYPTION = 'encryption'
+EVALUATION = 'evaluation'
+MODE = 'mode'
+NETWORKING = 'networking'
+OFFLOAD = 'offload'
+PIB = 'PIB'
+PIBPLUS = 'PIB+'

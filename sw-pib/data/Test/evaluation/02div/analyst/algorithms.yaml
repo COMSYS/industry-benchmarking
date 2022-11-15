@@ -1,0 +1,8 @@
+---
+operations:
+  - name: div
+    op: Division
+    is_kpi: true
+    var:
+      - A
+      - B

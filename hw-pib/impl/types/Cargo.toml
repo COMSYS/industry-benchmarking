@@ -1,0 +1,23 @@
+[package]
+name = "types"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Logging
+log = "0.4.17"
+
+# Parsing
+serde = { version = "1.0.137", features = ["derive"] }
+serde_yaml = "0.8"
+
+# Benchmarking config holds the cert
+rustls = "0.20"
+
+# For building const strings at compile time
+const_format = "0.2.24"
+
+[features]
+evaluation = []

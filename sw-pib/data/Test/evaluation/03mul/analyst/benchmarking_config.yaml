@@ -1,0 +1,6 @@
+---
+name: TEEBench Evaluation Procedure
+description: TEEBench Performance Testing
+k_anonymity: 1
+eval_mode: false
+offload: []

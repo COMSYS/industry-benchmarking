@@ -1,0 +1,17 @@
+---
+vars:
+  - name: input_a
+    max_val: 0.0
+    min_val: 0.0
+    values:
+      - 5.0
+  - name: input_b
+    max_val: 0.0
+    min_val: 0.0
+    values:
+      - 4.0
+  - name: input_c
+    max_val: 0.0
+    min_val: 0.0
+    values:
+      - 1.0

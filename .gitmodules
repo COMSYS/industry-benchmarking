@@ -1,0 +1,5 @@
+[submodule "sw-pib/seal"]
+	path = sw-pib/seal
+	url = https://github.com/Huelse/SEAL-Python.git
+	branch = main
+	# Tested commit hash: 1ff06049c13fbc4627e5c423e588b9695d9a0ff2

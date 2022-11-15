@@ -1,0 +1,15 @@
+# Key generation file for internal use
+*.key
+*.pem
+*.srl
+*.pfx
+*.crt
+*.csr
+
+# Server example keys
+!server/server.pem
+!server/server.key
+
+# Enclave present example keys
+!enclave/enclave.pem
+!enclave/enclave.key

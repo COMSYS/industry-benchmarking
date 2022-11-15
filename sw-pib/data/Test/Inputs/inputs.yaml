@@ -1,0 +1,20 @@
+vars:
+  - name: one
+    min_val: -10
+    max_val: 10
+    values: [1.0]
+
+  - name: two
+    min_val: -10
+    max_val: 10
+    values: [1.1]
+
+  - name: three
+    min_val: -10
+    max_val: 10
+    values: [1.0]
+
+  - name: four
+    min_val: 0
+    max_val: 0
+    values: [1.1]

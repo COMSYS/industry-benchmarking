@@ -1,0 +1,3 @@
+[workspace]
+
+members = ["benchmark", "client", "server", "server-util", "types", "orchestra"]

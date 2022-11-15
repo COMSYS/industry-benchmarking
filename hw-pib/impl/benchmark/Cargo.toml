@@ -1,0 +1,22 @@
+[package]
+name = "benchmark"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Logging 
+log = "0.4.17"
+
+# Parsing
+serde = { version = "1.0.137", features = ["derive"] }
+serde_yaml = "0.8"
+
+# Enum - for converting Name to Type
+strum = { version = "0.24.0", features = ["derive"] }
+
+types = { path = "../types" }
+
+[features]
+evaluation = []

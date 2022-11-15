@@ -1,0 +1,8 @@
+---
+operations:
+  - name: dic
+    op: DivisionVarConst
+    is_kpi: true
+    var:
+      - A
+    constant: 1.0

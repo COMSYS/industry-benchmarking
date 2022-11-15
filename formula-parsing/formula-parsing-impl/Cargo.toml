@@ -1,0 +1,19 @@
+[package]
+name = "formula-parsing-impl"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# Parsing and writing
+serde = {version = "1.0.126", features = ["derive"]}
+serde_yaml = "0.8"
+
+# Log messages
+env_logger = "0.9.0"
+log = "0.4.17"
+
+# Internal File format
+benchmark = { path = "../../hw-pib/impl/benchmark" }

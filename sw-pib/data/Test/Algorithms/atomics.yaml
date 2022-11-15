@@ -1,0 +1,21 @@
+operations:
+  - name: test_op
+    op: Multiplication
+    is_kpi: true
+    var:
+      - three
+      - two
+
+  - name: add_n3
+    op: Multiplication
+    is_kpi: true
+    var:
+      - test_op
+      - one
+
+  - name: mult_n4
+    op: Multiplication
+    is_kpi: true
+    var:
+      - add_n3
+      - two

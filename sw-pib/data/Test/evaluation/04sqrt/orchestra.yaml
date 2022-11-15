@@ -1,0 +1,6 @@
+---
+server_host: teebench.xyz
+server_http: 8080
+server_https: 8443
+exec_server: false
+rounds: 10

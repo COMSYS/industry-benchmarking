@@ -1,0 +1,30 @@
+# When SCONE is fully functional and configured with Teebench: uncomment here
+# *.pem
+# *.crt
+# *.key
+
+# Unnecessary Files for building
+impl/target
+impl/.vscode
+impl/data
+# impl/templates
+impl/Cargo.lock
+
+# Target trash and Unnecessary code
+impl/server/target
+impl/server/Cargo.lock
+impl/benchmark/target
+impl/benchmark/Cargo.lock
+impl/client/target
+impl/client/Cargo.lock
+impl/orchestra/target
+impl/orchestra/Cargo.lock
+impl/server-util/target
+impl/server-util/Cargo.lock
+impl/types/target
+impl/types/Cargo.lock
+
+# Do not copy test TLS keys
+# They are provided by scone CAS
+# impl/templates/crypto/server/server.key
+# impl/templates/crypto/server/server.pem

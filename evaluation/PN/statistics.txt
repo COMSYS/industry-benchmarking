@@ -1,0 +1,13 @@
+Dataset: PN
+Inputs: 35
+KPIs: 14
+Operations: 101
+Operations w/o DefConst: 100
+Formulas: 14 (number of KPIs)
+Max Depth (of formulas, not atomics): 1 
+Avg Depth (of formulas, not atomics): 1
+Max Depth: 12 
+Avg Depth: 6 
+
+{'AV_s': 5, 'B_Mat_s': 3, 'DLZ_s': 4, 'LT_s': 6, 'MP_s': 3, 'OEE_s': 3, 'PF_s': 5, 'PSK_p_s': 3, 'Pr_s': 3, 'QG_s': 6, 'RR_s': 6, 'VF_neg_s': 2, 'VF_pos_s': 10, 'theta_star_DLZ_s': 12}
+avg: 5.071428571428571 max: 12

@@ -1,0 +1,8 @@
+---
+operations:
+  - name: add
+    op: Addition
+    is_kpi: true
+    var:
+      - A
+      - B

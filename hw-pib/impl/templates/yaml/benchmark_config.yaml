@@ -1,0 +1,5 @@
+name: TEEBench Server
+description: Fancy Server
+k_anonymity: 1
+eval_mode: false
+offload: [ ]

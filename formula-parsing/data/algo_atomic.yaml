@@ -1,0 +1,26 @@
+---
+operations:
+  - name: he0001
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: 40.0
+  - name: he0000
+    is_kpi: false
+    op: Subtraction
+    var:
+      - input
+      - he0001
+    constant: ~
+  - name: he0002
+    is_kpi: false
+    op: DefConst
+    var: []
+    constant: 2.0
+  - name: testformula
+    is_kpi: true
+    op: Power
+    var:
+      - he0000
+      - he0002
+    constant: ~

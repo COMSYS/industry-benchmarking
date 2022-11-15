@@ -1,0 +1,38 @@
+# Configuation of SW-PIBs functionality.
+# These options concern the offloading and evaluation capabilities.
+
+mode: encrypted #encrypted or plaintext
+evaluation: true # Wheter evaluation is performed (this implies that the computation is performed twice (once encrypted and once in plain for accuracy))
+networking: false # This option does not influence the functionality of SW-PIB
+offload: # Operations that will be offloaded by default. In this case, only strictly necessary operations are selected
+    #    - Addition
+    #    - AdditionConst
+    #    - AdditionOverN
+    - MinimaOverN
+    - MaximaOverN
+    #    - Subtraction
+    #    - SubtractionConstVar
+    #    - SubtractionVarConst
+    #    - Multiplication
+    #    - MultiplicationConst
+    - DivisionConstVar
+    #    - DivisionVarConst
+    - Division
+    - Squareroot
+    - Power
+    #    - PowerConst
+    - PowerBaseConst
+    - Minima
+    - Maxima
+    - Absolute
+    #    - DefConst
+
+# Crypto configuration.
+# For further information on how to choose these parameters we refer to SEALs documentation:
+# https://github.com/microsoft/SEAL/tree/main/native/examples
+
+crypto:
+    polymod: 16384 # = 2^14
+    level: 6 # Corresponds to multiplicative depth and amount of different ciphertext sizes
+    scale: 1099511627776 # = 2^40
+

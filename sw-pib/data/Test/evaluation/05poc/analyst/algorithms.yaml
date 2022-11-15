@@ -1,0 +1,8 @@
+---
+operations:
+  - name: poc
+    op: PowerConst
+    is_kpi: true
+    var:
+      - A
+    constant: 2.0

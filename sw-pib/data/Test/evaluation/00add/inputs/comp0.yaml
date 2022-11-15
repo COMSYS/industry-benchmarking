@@ -1,0 +1,12 @@
+---
+vars:
+  - name: A
+    max_val: 0.0
+    min_val: 0.0
+    values:
+      - 1.0
+  - name: B
+    max_val: 0.0
+    min_val: 0.0
+    values:
+      - 3.0

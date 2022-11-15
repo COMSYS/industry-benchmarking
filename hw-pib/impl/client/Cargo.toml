@@ -1,0 +1,32 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3"
+async-trait = "0.1.56"
+
+reqwest = {version="0.11.10", features=["native-tls", "multipart", "json", "stream", "blocking"] }
+eventsource-stream = "0.2.3"
+rustls = { version="0.20" }
+
+clap = { version = "3.1.18", features = ["derive"] }
+
+strum = { version = "0.24.0", features = ["derive"] }
+log = "0.4.16"
+env_logger = "0.9.0"
+
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.8"
+
+# Eval Logs
+csv = "1.1"
+
+# local crates - benchmark used due to eval
+benchmark = { path="../benchmark" }
+types = { path="../types" }

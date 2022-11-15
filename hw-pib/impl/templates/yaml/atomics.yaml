@@ -1,0 +1,26 @@
+operations:
+  - name: test_op
+    op: Addition
+    is_kpi: true
+    var:
+      - three
+      - two_op
+      # - three
+      # - two
+
+  - name: two_op
+    op: AdditionConst
+    is_kpi: false
+    var:
+      - one
+    constant: 1
+
+  - name: mul
+    compute_for_each: false
+    op: Multiplication
+    is_kpi: true
+    var:
+      - two
+      - two_op
+      - three
+#    constant: 5
