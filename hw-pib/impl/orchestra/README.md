@@ -4,7 +4,7 @@ An orchestra (/ˈɔːrkɪstrə/) is a large ensemble typical of classical subpro
 
 - The Server that can be executed on the host
 - The `Analyst` client who uploads CA certificates, algorithms, and benchmarking configuration files
-- The `Company` clients who upload their **secret**__ data along with each other to get their results
+- The `Company` clients who upload their __secret__ data along with each other to get their results
 
 each grouped in sections.
 
@@ -51,13 +51,13 @@ teebench.zip
 └── orchestra.yaml
 ```
 
-**The companies have the prefix "comp" — for the cryptographic keys and the inputs**!**
+**The companies have the prefix "comp" — for the cryptographic keys and the inputs!**
 
 **The analyst has to have the name "analyst"! The name of the files has to match as well!**
 
 `orchestra.yaml` has the following format:
 
-"`yaml
+```yaml
 server_host: teebench.xyz   # Host of server - make sure to have your /etc/hosts set correctly!
 server_http: 8080           # Http port of server
 server_https: 8443          # Https port of server
@@ -72,7 +72,7 @@ rounds: 10                  # Number of rounds to run the eval
 An example is in this directory.
 Please use the following command(s) to execute it:
 
-"`bash
+```bash
 cargo run inputs/ToEval/test_orchestra.zip Enclave # In hardware mode using Intel SGX
 cargo run inputs/ToEval/test_orchestra.zip Unencrypted # In case simulation mode is used or the server is executed without docker 
 ```

@@ -9,12 +9,9 @@ Subsequently, the generated files are used separately for `HW-PIB` and `SW-PIB` 
 To provide guidance, we use a small example to perform the steps outlined below. 
 For this purpose, we use the implementation of the well-known midnight formula:
 
-$$
-
-x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-
-$$
-
+```math
+ x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+```
 
 ## 1. Generating Input Data
 

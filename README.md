@@ -10,16 +10,19 @@ This repository contains our fully-tested prototypes of HW-PIB & SW-PIB, our imp
 
 ## Publication
 
-- Jan Pennekamp, Johannes Lohmöller, Eduard Vlad, Joscha Loos, Niklas Rodemann, Patrick Sapel, Ina Berenice Fink, Seth Schmitz, Christian Hopmann, Matthias Jarke, Günther Schuh, Klaus Wehrle, Martin Henze: *Designing Secure and Privacy-Preserving Information Systems for Industry Benchmarking*. Under Submission. 2022.
+- Jan Pennekamp, Johannes Lohmöller, Eduard Vlad, Joscha Loos, Niklas Rodemann, Patrick Sapel, Ina Berenice Fink, Seth Schmitz, Christian Hopmann, Matthias Jarke, Günther Schuh, Klaus Wehrle, Martin Henze: *Designing Secure and Privacy-Preserving Information Systems for Industry Benchmarking*. Proceedings of the 35th International Conference on Advanced Information Systems Engineering (CAiSE '23), Springer, 2023.
 
 If you use any portion of our work, please cite our publication.
 
 
 ```bibtex
-@misc{pennekamp2022designing,
+@inproceedings{pennekamp2023designing,
     author = {Pennekamp, Jan and Lohmöller, Johannes and Vlad, Eduard and Loos, Joscha and Rodemann, Niklas and Sapel, Patrick and Fink, Ina Berenice and Schmitz, Seth and Jarke, Matthias and Schuh, Günther and Wehrle, Klaus and Henze, Martin},
     title = {{Designing Secure and Privacy-Preserving Information Systems for Industry Benchmarking}},
-    year = {2022},
+    booktitle = {Proceedings of the 35th International Conference on Advanced Information Systems Engineering (CAiSE '23)}
+    year = {2023},
+    month = {06},
+    publisher = {Springer}
 }
 ```
 
@@ -39,7 +42,7 @@ If you are planning to integrate parts of our work into a commercial product and
 
 ## Acknowledgments
 
-This work is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy — EXC-2023 Internet of Production — 390621612.
+Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy — EXC-2023 Internet of Production — 390621612.
 We thank Jan-Gustav Michnia for his initial exploration of the FHE library CONCRETE.
 
 
@@ -50,7 +53,7 @@ We have summarized an example workflow in [workflow](./benchmarking-docs/workflo
 
 ## Artifacts
 
-We provide two implementations for conducting privacy-preserving company benchmarking.
+We provide two implementations for conducting privacy-preserving industry benchmarking.
 
 1. **Trusted Execution Environment**-based benchmarking using SCONE and Docker.
 2. **Fully Homomorphic Encryption**-based benchmarking using Microsoft SEAL.
@@ -146,7 +149,7 @@ This step automatically clones [Microsoft SEAL](https://github.com/microsoft/SEA
 - Ubuntu 22.04:
    - sudo apt install git build-essential cmake python3 python3-dev python3-pip
 - Arch Linux:
-    - yay -S git ** cmake base-devel python python-pip pyhton-devtools
+    - yay -S git ** cmake base-devel python python-pip python-devtools
 ```
 
 ### Formula Parsing

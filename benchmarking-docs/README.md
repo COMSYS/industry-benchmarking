@@ -19,7 +19,7 @@ An atomic formula is a base operation for KPI computation.
 The usage of atomic formulas can be nested and thus create complex evaluation trees. 
 The scheme of one atomic is explained in the following by using a template of one `Atomic` field in YAML:
 
-"`yaml
+```yaml
 - name: test_op
     op: Addition
     is_kpi: true

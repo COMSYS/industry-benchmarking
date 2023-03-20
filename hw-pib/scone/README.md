@@ -45,7 +45,6 @@ Before executing the `hw-pib/scone/create-scone-container.sh` file, you have to 
 Furthermore, having all prerequisites fulfilled, it is still mandatory to export an environment variable before executing the setup script.
 
 ```bash
-
 cd hw-pib/scone/
 
 export SCONE_HW=1
