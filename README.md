@@ -10,7 +10,7 @@ This repository contains our fully-tested prototypes of HW-PIB & SW-PIB, our imp
 
 ## Publication
 
-- Jan Pennekamp, Johannes Lohmöller, Eduard Vlad, Joscha Loos, Niklas Rodemann, Patrick Sapel, Ina Berenice Fink, Seth Schmitz, Christian Hopmann, Matthias Jarke, Günther Schuh, Klaus Wehrle, Martin Henze: *Designing Secure and Privacy-Preserving Information Systems for Industry Benchmarking*. Proceedings of the 35th International Conference on Advanced Information Systems Engineering (CAiSE '23), Springer, 2023.
+- Jan Pennekamp, Johannes Lohmöller, Eduard Vlad, Joscha Loos, Niklas Rodemann, Patrick Sapel, Ina Berenice Fink, Seth Schmitz, Christian Hopmann, Matthias Jarke, Günther Schuh, Klaus Wehrle, Martin Henze: *Designing Secure and Privacy-Preserving Information Systems for Industry Benchmarking*. Proceedings of the 35th International Conference on Advanced Information Systems Engineering (CAiSE '23), LNCS - Volume 13901, Springer, 2023.
 
 If you use any portion of our work, please cite our publication.
 
@@ -22,6 +22,7 @@ If you use any portion of our work, please cite our publication.
     booktitle = {Proceedings of the 35th International Conference on Advanced Information Systems Engineering (CAiSE '23)}
     year = {2023},
     month = {06},
+    doi = {10.1007/978-3-031-34560-9_29},
     publisher = {Springer}
 }
 ```
